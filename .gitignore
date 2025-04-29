@@ -1,0 +1,10 @@
+*.pdf
+.idea/
+cmake-build-debug/
+cmake-build-release/
+build/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
