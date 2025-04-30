@@ -2,7 +2,7 @@
 #include "PassportScanner.h"
 
 int main() {
-    const cv::Mat image = cv::imread("../images/2.png");
+    const cv::Mat image = cv::imread("../images/z1.png");
     if (image.empty()) {
         std::cerr << "Error: Could not load image." << std::endl;
         return -1;
