@@ -9,6 +9,8 @@ pkg_check_modules(Tesseract REQUIRED tesseract)
 
 
 add_executable(project main.cpp
-        PassportScanner.cpp)
+        PassportScanner.cpp
+        TextExtractor.cpp
+        TextExtractor.h)
 include_directories(${OpenCV_INCLUDE_DIRS} ${Tesseract_INCLUDE_DIRS})
 target_link_libraries(project ${OpenCV_LIBS} ${Tesseract_LIBRARIES})
